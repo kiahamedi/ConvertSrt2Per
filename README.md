@@ -6,3 +6,7 @@ for use first install install:
 
 for run:
 `python ConvertStr2Per.py input.srt out.srt`
+
+
+# warning
+this script work with python 3
