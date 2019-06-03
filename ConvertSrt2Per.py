@@ -4,11 +4,13 @@
 #kia.arta9793@gmail.com
 
 import sys
-reload(sys)
+from importlib import reload
 from googletrans import Translator
 
+
+reload(sys)
+
 translator = Translator()
-sys.setdefaultencoding('utf-8')
 
 input_file_name = sys.argv[1]
 output_file_name = sys.argv[2]
