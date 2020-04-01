@@ -22,19 +22,19 @@ $ cd /tmp
 $ git clone https://github.com/kiahamedi/ConvertSrt2Per.git
 $ cd ConvertSrt2Per/
 $ mv ConvertSrt2Per.py convertSrt2Per
-$ sudo cp convertSrt2Per /usr/bin/
+$ sudo cp convertSrt2Per /usr/local/bin/
 $ convertStr2Per input.srt out.srt
 ```
 
 ## Install Auto
-`cd /tmp && git clone https://github.com/kiahamedi/ConvertSrt2Per.git && cd ConvertSrt2Per && mv ConvertSrt2Per.py convertSrt2Per && sudo cp convertSrt2Per /usr/bin/`</br>
+`cd /tmp && git clone https://github.com/kiahamedi/ConvertSrt2Per.git && cd ConvertSrt2Per && mv ConvertSrt2Per.py convertSrt2Per && sudo cp convertSrt2Per /usr/local/bin/`</br>
 </br>
 now use this command for run:</br>
 `convertStr2Per input.srt out.srt`</br>
 
 ## Uninstall
 use this command for uninstall:</br>
-`sudo rm /usr/bin/convertSrt2Per`</br>
+`sudo rm /usr/local/bin/convertSrt2Per`</br>
 
 ## warning
 this script work with python 3
