@@ -20,13 +20,13 @@ $ python ConvertStr2Per.py input.srt out.srt
 ```bash
 $ git clone https://github.com/kiahamedi/ConvertSrt2Per.git
 $ cd ConvertSrt2Per/
-$ mv ConvertStr2Per.py convertStr2Per
+$ mv ConvertSrt2Per.py convertSrt2Per
 $ sudo cp convertStr2Per /usr/local/bin
 $ convertStr2Per input.srt out.srt
 ```
 
 ## Install Auto
-`git clone https://github.com/kiahamedi/ConvertSrt2Per.git && cd ConvertSrt2Per && mv ConvertStr2Per.py convertStr2Per && sudo cp convertStr2Per /usr/local/bin`</br>
+`git clone https://github.com/kiahamedi/ConvertSrt2Per.git && cd ConvertSrt2Per && mv ConvertSrt2Per.py convertSrt2Per && sudo cp convertStr2Per /usr/local/bin`</br>
 </br>
 now use this command for run:</br>
 `convertStr2Per input.srt out.srt`</br>
