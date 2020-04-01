@@ -32,6 +32,10 @@ with open(input_file_name) as f_in:
         if line.startswith('<font'):
             f_out.write(line)
             continue
+        
+        if line.startswith('\n'):
+            f_out.write(line)
+            continue
 
         translated = translator.translate(line, src='en', dest='fa')
         f_out.write(translated.text + "\r\n")
