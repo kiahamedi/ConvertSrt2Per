@@ -3,6 +3,8 @@
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
+![alt text](https://raw.githubusercontent.com/kiahamedi/ConvertSrt2Per/master/wallpaper.png)
+
 ## dependencies
 for use first install install:
 `sudo pip install googletrans`
@@ -24,9 +26,9 @@ $ convertStr2Per input.srt out.srt
 ```
 
 ## Configure Auto
-`git clone https://github.com/kiahamedi/ConvertSrt2Per.git && cd ConvertSrt2Per && mv ConvertStr2Per.py convertStr2Per && sudo cp convertStr2Per /usr/local/bin`
-now use this command for run:
-`convertStr2Per input.srt out.srt`
+`git clone https://github.com/kiahamedi/ConvertSrt2Per.git && cd ConvertSrt2Per && mv ConvertStr2Per.py convertStr2Per && sudo cp convertStr2Per /usr/local/bin`</br>
+now use this command for run:</br>
+`convertStr2Per input.srt out.srt`</br>
 
 
 ## warning
