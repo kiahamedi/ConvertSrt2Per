@@ -16,7 +16,7 @@ $ cd ConvertSrt2Per/
 $ python ConvertStr2Per.py input.srt out.srt
 ```
 
-## Configure Manual
+## Install Manual
 ```bash
 $ git clone https://github.com/kiahamedi/ConvertSrt2Per.git
 $ cd ConvertSrt2Per/
@@ -25,12 +25,15 @@ $ sudo cp convertStr2Per /usr/local/bin
 $ convertStr2Per input.srt out.srt
 ```
 
-## Configure Auto
+## Install Auto
 `git clone https://github.com/kiahamedi/ConvertSrt2Per.git && cd ConvertSrt2Per && mv ConvertStr2Per.py convertStr2Per && sudo cp convertStr2Per /usr/local/bin`</br>
 </br>
 now use this command for run:</br>
 `convertStr2Per input.srt out.srt`</br>
 
+## Uninstall
+use this command for uninstall:</br>
+`sudo rm /usr/local/bin/convertStr2Per`</br>
 
 ## warning
 this script work with python 3
