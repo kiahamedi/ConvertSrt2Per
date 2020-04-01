@@ -18,15 +18,16 @@ $ python ConvertStr2Per.py input.srt out.srt
 
 ## Install Manual
 ```bash
+$ cd /tmp
 $ git clone https://github.com/kiahamedi/ConvertSrt2Per.git
 $ cd ConvertSrt2Per/
 $ mv ConvertSrt2Per.py convertSrt2Per
-$ sudo cp convertStr2Per /usr/local/bin
+$ sudo cp convertSrt2Per /usr/bin/
 $ convertStr2Per input.srt out.srt
 ```
 
 ## Install Auto
-`git clone https://github.com/kiahamedi/ConvertSrt2Per.git && cd ConvertSrt2Per && mv ConvertSrt2Per.py convertSrt2Per && sudo cp convertStr2Per /usr/local/bin`</br>
+`cd /tmp && git clone https://github.com/kiahamedi/ConvertSrt2Per.git && cd ConvertSrt2Per && mv ConvertSrt2Per.py convertSrt2Per && sudo cp convertSrt2Per /usr/bin/`</br>
 </br>
 now use this command for run:</br>
 `convertStr2Per input.srt out.srt`</br>
