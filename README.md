@@ -34,7 +34,7 @@ now use this command for run:</br>
 
 ## Uninstall
 use this command for uninstall:</br>
-`sudo rm /usr/local/bin/convertStr2Per`</br>
+`sudo rm /usr/bin/convertSrt2Per`</br>
 
 ## warning
 this script work with python 3
