@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 #  kia  hamedi
 # www.kiahamedi.ir
 #kia.arta9793@gmail.com
