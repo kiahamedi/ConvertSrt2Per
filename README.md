@@ -6,8 +6,14 @@
 ![alt text](https://raw.githubusercontent.com/kiahamedi/ConvertSrt2Per/master/wallpaper.png)
 
 ## dependencies
-for use first install install:
-`sudo pip install googletrans`
+for first use install depencency from requirements with run this command:
+```
+pip install -r requirements.txt
+```
+
+list of dependencies:
+* googletrans
+* colorama
 
 ## Downloading
 ```bash
@@ -38,7 +44,7 @@ use this command for uninstall:</br>
 `sudo rm /usr/local/bin/convertSrt2Per`</br>
 
 ## warning
-this script work with python 3
+>this script work with python 3
 
 
 ## Are you a developer?

@@ -8,15 +8,17 @@ from sys import platform
 from os import system
 from importlib import reload
 from googletrans import Translator
-
+from colorama import Fore
 
 reload(sys)
 
 translator = Translator()
-
-input_file_name = sys.argv[1]
-output_file_name = sys.argv[2]
-
+try:
+    input_file_name = sys.argv[1]
+    output_file_name = sys.argv[2]
+except Exception:
+    print(f'{Fore.RED}Could Not Parse Arguments!\nUsage: python3 ConvertStr2Per.py input.srt output.srt')
+    exit()
 number_of_lines = 0
 translated_lines = 0
 
